@@ -1,0 +1,416 @@
+/* ----------------------------------------------------------BASIC SET UP----------------------------------------------------------- */
+body {
+	font-family: 'Titillium Web', sans-serif;
+	}	
+.container {
+	width: 80% ;
+	margin: auto;
+}	
+/* -------------------------------------------------START HEADER AREA DESIGN-------------------------------------------------------- */
+.header-area {
+	background: url(jjj.jpg) center center;
+	background-position: cover ;
+	padding: 60px 0 ;
+}
+.logo-area {
+	width: 30% ;
+	float: left;
+	overflow: hidden;
+}
+.menu-area {
+	width: 70% ;
+	overflow: hidden;
+	text-align: right;
+}
+.menu-area ul li {
+	display: inline-block;
+	padding-right: 15px ;
+
+}
+.menu-area ul li:last-child {
+	padding-right: 0px ;
+}
+.menu-area ul li a {
+	text-decoration: none;
+	padding: 8px 10px ;
+	color: #fff ;
+	text-transform: uppercase;
+	border-radius: 5px ;
+	font-size: 16px ;
+	font-style: 300 ;
+}
+.menu-area ul .active a {
+	background: #643a79;
+}
+.menu-area ul li a:hover{
+	background: #643a79;
+}
+.header-content h1 {
+	margin: auto ;
+	padding-top: 100px ;
+	padding-bottom: 60px ;
+	color: #fff ;
+	width: 60% ;
+	text-align: center;
+	width: 710px ;
+	height: 90px ;
+}
+
+.header-area .header-content .button {
+	margin: auto;
+	padding-bottom: 30px ;
+	text-align: center;
+}
+.header-area .header-content .button a {
+	text-decoration: none;
+	margin: auto;
+	background: #eb7d4b ;
+	color: #fff ;
+	padding: 15px 50px ;
+	border-radius: 5px ;
+	font-size: 22px ;
+	text-transform: uppercase;
+}
+.header-content .button a:hover {
+	background: #643a79;
+}
+#wrapper {
+	position: relative;
+	height: 100vh ;
+}
+#slider-area {
+	position: absolute;
+	height: 100vh ;
+	width: 100vh ;
+	top: 0 ;
+	left: 0 ;
+}
+#slider-area .owl-item div {
+	height: 100vh ;
+	width: 100vh ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50% ;
+}
+/* -------------------------------------------------END HEADER AREA DESIGN---------------------------------------------------------- */	
+/*START SERVICE AREA DESIGN*/
+.service-area {
+	padding: 60px 0 ;
+	color: #fff ;
+	background: red ;
+	overflow: hidden;
+}
+.service-content h2 {
+	text-align: center;
+	font-size: 35px ;
+	letter-spacing: 4px ;
+	font-family: Titillium Web bold ;
+}
+.service-content h4 {
+	text-align: center;
+}
+.row {
+	text-align: center;
+	padding: 30px 0 ;
+}
+.row .col-1-4 {
+	width: 23% ;
+	float: left;
+	padding: 10px ;
+}
+.row .col-2-4 {
+	width: 23% ;
+	overflow: hidden;
+	float: left;
+	padding: 10px ;
+}
+.row .col-3-4 {
+	width: 23% ;
+	overflow: hidden;
+	float: left;
+	padding: 10px ;
+}
+.row .col-4-4 {
+	width: 23% ;
+	float: left;
+	padding: 10px ;
+}
+/*END SERVICE AREA DESIGN*/
+/*START TEAM AREA DESIGN*/
+.team-area {
+	background: url(ok.jpg) center center ;
+	height: 600px ;
+	padding: 50px 0 ;
+	padding-bottom: 110px ;
+}
+.team-content {
+	text-align: center;
+}
+.team-content h2 {
+	letter-spacing: 4px ;
+	font-size: 35px ;
+}
+.team-content .row img {
+	width: 200px ;
+	height: 200px ;
+	border-radius: 50% ;
+}
+.team-content .row h3 {
+	margin: 0 ;
+	margin-top: 20px ;
+	color: #fff;
+}
+.team-content .row h5 {
+	color: #fc00ca ;
+	font-size: 15px ;
+	margin: 0 ;
+}
+.team-content .row ul li {
+	display: inline-block;
+	padding: 20px 5px ;
+}
+.team-content .row ul li a {
+	background: red ;
+	border-radius: 50% ;
+	padding: 12px ;
+	color: #fff ;
+}
+.team-content .row ul li a:hover {
+	background: green ;
+}
+/*END TEAM AREA DESIGN*/
+/*START SKILL AREA DESIGN*/
+.skill-area {
+	background: #17c217 ;
+	height: 450px ;
+	padding: 40px 0 ;
+	padding-bottom: 80px ;
+	text-align: center;
+	color: #fff ;
+}
+.skill-area h2 {
+	letter-spacing: 4px ;
+	font-size: 35px ;
+}
+.skill-content img {
+	margin-top: 30px ;
+}
+/*END SKILL AREA DESIGN*/
+/*START PORTFOLIO AREA DESIGN*/
+.portfolio-area {
+	background: #fff ;
+	padding: 60px 0 ;
+	padding-bottom: 82px ;
+}
+.portfolio-content h2 {
+	text-align: center;
+	color: blue ;
+	letter-spacing: 4px ;
+	font-size: 35px ;
+}
+.portfolio-content h4 {
+	text-align: center;
+	font-size: 18px ;
+	width: 510px ;
+	margin: auto;
+	padding: 10px ;
+}
+.portfolio-content h5 {
+	font-size: 20px ;
+	color: #d74680 ;
+	margin-bottom: 0 ;
+}
+.portfolio-content ul {
+	text-align: center;
+	padding: 10px 0 ;
+}
+.portfolio-content ul li {
+	display: inline-block;
+	padding: 0 10px ;
+}
+.portfolio-content ul li a {
+	text-decoration: none;
+	padding: 8px 15px ;
+	background: yellow ;
+	color: #000 ;
+	border-radius: 5px ;
+	border: 1px solid white ;
+}
+.portfolio-area ul .active a {
+	background: orange ;
+}
+.portfolio-content ul li a:hover {
+	background: orange ;
+}
+.portfolio-content .row .col-1-4 {
+	width: 48% ;
+	float: left;
+	overflow: hidden;
+}
+.portfolio-content .row .col-2-4 {
+	width: 48% ;
+	overflow: hidden;
+}
+.portfolio-content .row .col-3-4 {
+	width: 48% ;
+	float: left;
+	overflow: hidden;
+}
+.portfolio-content .row .col-4-4 {
+	width: 48% ;
+	overflow: hidden;
+	margin-bottom: 70px ;
+}
+.portfolio-content .row img {
+	width: 70% ;
+	margin: auto;
+}
+.portfolio-area .load {
+	text-align: center;
+	margin: 0; 
+	padding-top: 20px ;
+}
+.portfolio-area .load a {
+	text-decoration: none;
+	background: red ;
+	color: #fff ;
+	padding: 15px 50px ;
+	border-radius: 5px ;
+	font-size: 18px ;
+	border: 1px solid white ;
+}
+.portfolio-area .load a:hover {
+	background: green ;
+}
+/*END PORTFOLIO AREA DESIGN*/
+/*START ABOUT AREA DESIGN*/
+.about-area {
+	background: url(g.jpg) center center ;
+	height: 620px ;
+	padding: 60px 0 ;
+}
+.about-content h2 {
+	text-align: center;
+	color: #d74680 ;
+	letter-spacing: 4px ;
+	font-size: 35px ;
+}
+.about-content h4 {
+	text-align: center;
+	font-size: 18px ;
+	width: 510px ;
+	margin: auto;
+	padding: 10px ;
+	color: #fff ;
+}
+.about-area .row .col-1-4,
+.about-area .row .col-2-4,
+.about-area .row .col-3-4,
+.about-area .row .col-4-4 {
+	width: 40% ;
+	float: left;
+	overflow: hidden;
+	margin: auto;
+	padding: 53px ;
+	text-align: justify;
+}
+.about-area .row img {
+	width: 100px ;
+	height: 100px ;
+	border-radius: 50% ;
+	float: left;
+	margin-right: 42px ;
+}
+.about-area .row h5 {
+	margin-left: 140px ;
+	margin-top: 0 ;
+	color: #ff5568 ;
+}
+.about-area .row h3 {
+	margin-bottom: 0 ;
+}
+.about-area .row q {
+	color: #865f12 ;
+}
+/*END ABOUT AREA DESIGN*/
+/*START CONTACT AREA DESIGN*/
+.contact-area {
+	background: url(c.jpg) center   ;
+	padding: 60px 0 ;
+	height: 600px ;
+}
+.contact-content h2 {
+	text-align: center;
+	color: #d74680 ;
+	letter-spacing: 4px ;
+	font-size: 35px ;
+}
+.contact-content h3 {
+	text-align: center;
+	padding: 30px 0 ;
+}
+.contact-content form {
+	text-align: center;
+}
+.contact-content form input[type="text"] {
+	width: 380px ;
+	margin-left: 88px ;
+	float: left;
+	margin-bottom: 30px ;
+	background: lime ;
+	padding: 10px 20px ;
+	border: 1px solid lime ;
+	border-radius: 3px ;
+}
+.contact-content form input[type="email"] {
+	width: 380px ;
+	margin-bottom: 30px ;
+	background: lime ;
+	padding: 10px 20px ;
+	border: 1px solid lime ;
+	border-radius: 3px ;
+	margin-right: 34px;
+}
+.contact-content form textarea {
+	background: lime ;
+	border: 1px solid lime ;
+	border-radius: 3px ;
+}
+.contact-area .send {
+	text-align: center;
+	margin: 0; 
+	padding-top: 70px ;
+}
+.contact-area .send a {
+	text-decoration: none;
+	background: #00b3fd ;
+	color: #fff ;
+	padding: 15px 50px ;
+	border-radius: 5px ;
+	font-size: 18px ;
+	border: 1px #3c5499 ;
+}
+.contact-area .send a:hover {
+	background: red ;
+}
+/*END CONTACT AREA DESIGN*/
+/*START FOOTER AREA DESIGN*/
+.footer-area {
+	background: blue ;
+	padding: 40px 0 ;
+}
+.footer-content ul {
+	text-align: center;
+}
+.footer-content ul li {
+	display: inline-block ;
+}
+.footer-content ul li a {
+	color: #fff ;
+	text-decoration: none;
+	padding: 0 20px ;
+	font-size: 25px ;
+}
+.footer-content ul .active a {
+	color: yellow ;
+}
